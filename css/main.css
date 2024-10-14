@@ -336,3 +336,21 @@
   font-size: 16px;
   font-weight: 500;
 }
+
+.car-list__view-all-link {
+  display: flex;
+  width: 173px;
+  padding: 18px 30px;
+  margin: 40px auto 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #299764;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
