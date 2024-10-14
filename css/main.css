@@ -283,12 +283,13 @@
   gap: 20px;
 }
 
-.carselection-section__car-item {
+.car-card {
   width: 386px;
   height: 433px;
   flex-shrink: 0;
   border-radius: 16px;
   background-color: #f5f5f5;
+  transition: 0.3s linear background-color;
 }
 
 .car-card__title-wrapper {
@@ -304,6 +305,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: 0.3s linear color;
 }
 
 .car-card__desc {
@@ -313,6 +315,7 @@
   font-family: Montserrat;
   font-weight: 500;
   line-height: normal;
+  transition: 0.3s linear color;
 }
 
 .car-card__desc-wrapper {
@@ -335,6 +338,7 @@
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
+  transition: 0.3s linear color;
 }
 
 .car-list__view-all-link {
@@ -353,4 +357,22 @@
   font-weight: 500;
   line-height: normal;
   text-decoration: none;
+}
+
+.car-card:hover {
+  border-radius: 16px;
+  background-color: #299764;
+}
+
+.car-card:hover  .car-card__title {
+  color: #fff;
+}
+
+.car-card:hover  .car-card__desc {
+  color: #fff;
+}
+
+.car-card:hover .car-card__desc-item {
+  fill: #FFF;;
+  color: #fff;
 }
