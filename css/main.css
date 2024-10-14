@@ -98,7 +98,7 @@
 
 .hero-section {
   padding-top: 20px;
-  padding-bottom: calc(133/2);
+  padding-bottom: 66px;
 }
 
 .hero-section__wrapper {
@@ -217,3 +217,61 @@
 
 /* car selection section start */
 
+.carselection-section {
+  padding-top: 67px;
+  padding-bottom: 160px;
+}
+
+.carselection-section__title-wrapper {
+  width: 575px;
+  margin: 0 auto 40px; 
+}
+
+.carselection-section__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--Text-Primary, #000);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.carselection-section__desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.carselection-section__car-options-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.carselection-section__car-options-item {
+  display: flex;
+  padding: 19px 40px;
+  align-items: flex-start;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1.5px solid #E5E7EA;
+  background: #FFF;
+}
+
+.carselection-section__car-options-item--active {
+  color: var(--Text-White, #FFF);
+  border: 1.5px solid transparent;
+  background-color: #299764;
+}
