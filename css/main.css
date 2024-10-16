@@ -703,6 +703,7 @@
 
 .service-section__subtitle-wrapper {
   width: 211px;
+  margin-bottom: 10px;
 }
 
 .service-section__item:nth-child(2) > .service-section__subtitle-wrapper {
@@ -726,4 +727,19 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.service-section__subdesc-wrapper {
+  width: 354px;
+}
+
+.service-section__subdesc {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
 }
