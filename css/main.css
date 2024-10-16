@@ -754,3 +754,35 @@
   border: 1.5px solid #E5E7EA;
   background-color: var(--Background-White, #fff);
 }
+
+.safety-section__wrapper-left {
+  width: 744px;
+  padding: 40px 92px 32px 32px;
+}
+
+.safety-section__info-wrapper {
+  width: 590px;
+  margin-bottom: 94px;
+}
+
+.safety-section__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--Text-Primary, #000);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.safety-section__desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
