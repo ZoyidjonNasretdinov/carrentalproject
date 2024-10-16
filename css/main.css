@@ -45,6 +45,9 @@
 }
 
 .site-nav__item {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
   padding: 18px 16px;
   color: var(--Text-Primary, #000);
   text-align: center;
@@ -54,6 +57,16 @@
   font-weight: 500;
   line-height: normal;
 }
+
+
+.site-nav__item svg {
+  transition: transform 0.3s ease;
+}
+
+.site-nav__item:hover svg {
+  transform: rotate(180deg);
+}
+
 
 .site-header__phone-number {
   margin-right: 24px;
@@ -222,7 +235,27 @@
   border-radius: 50%;
   border: none;
   background-color: #299764;
+  transition:background-color 0.3s linear;
 }
+
+
+.search-btn svg {
+  fill: #fff;
+}
+
+.search-btn:hover {
+  background-color: #077743;
+}
+
+.search-btn:active {
+  background-color: #f5f5f5;
+}
+
+.search-btn:active svg {
+  fill: #000;
+}
+
+
 
 .search-form__input {
   width: 100%;
@@ -250,9 +283,26 @@
   border-radius: 100px;
   border: none;
   background-color: #fff;
+  transition: background-color 0.3s linear;
 }
 
-/* car selection section start */
+.rentagle-btn svg {
+  fill: #555;
+  transition: fill 0.3s linear;
+}
+
+.rentagle-btn:hover svg {
+  fill: #000;
+}
+
+.rentagle-btn:active {
+  background-color: #299764;
+}
+
+.rentagle-btn:active svg {
+  fill: #fff;
+}
+
 
 .carselection-section {
   padding-top: 67px;
