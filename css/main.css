@@ -743,3 +743,14 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
+
+.safety-section {
+  padding-top: 0;
+  padding-bottom: 160px;
+}
+
+.safety-section__wrapper {
+  border-radius: 20px;
+  border: 1.5px solid #E5E7EA;
+  background-color: var(--Background-White, #fff);
+}
