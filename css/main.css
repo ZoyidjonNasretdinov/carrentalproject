@@ -264,9 +264,6 @@
   fill: #000;
 }
 
-
-
-
 .search-form__input:focus {
   border: none;
 }
@@ -477,3 +474,18 @@
   fill: #FFF;;
 }
 
+
+/* Testimonials section start */
+
+.testimonials-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonials-section__wrapper {
+  display: flex;
+}
+
+.testimonials-section__wrapper-left {
+
+}
