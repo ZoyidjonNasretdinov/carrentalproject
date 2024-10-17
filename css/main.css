@@ -906,3 +906,23 @@
   line-height: normal;
   text-decoration: none;
 }
+
+.site-footer__wrapper-end {
+  display: flex;
+}
+
+.site-footer__wrapper-end-left {
+  padding-right: 147px;
+}
+
+.site-footer__copy-wrapper {
+  width: 158px;
+}
+
+.site-footer__copy {
+  color: var(--Text-Primary, #000);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
